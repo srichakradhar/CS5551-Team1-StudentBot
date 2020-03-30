@@ -1,0 +1,31 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a href="#" class="navbar-brand ml-3">UMKC ROO'S Bot</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+      data-target="#mainMenu" aria-controls="mainMenu" 
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse"></div>
+    <div class="collapse navbar-collapse mr-auto" id="mainMenu">
+      <ul class="navbar-nav mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a [routerLink]="'/home'" routerLinkActive="active" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="'/about'" routerLinkActive="active" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="'/contact'" routerLinkActive="active" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="'/faqs'" routerLinkActive="active" class="nav-link">FAQ</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</header>

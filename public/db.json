@@ -1,0 +1,102 @@
+{
+  "messages": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+      "id": 4
+    },
+    {
+      "message": "hello",
+      "id": 5
+    },
+    {
+      "message": "hello",
+      "id": 6
+    },
+    {
+      "message": "how are you",
+      "id": 7
+    },
+    {
+      "message": "how are you",
+      "id": 8
+    },
+    {
+      "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+      "id": 9
+    },
+    {
+      "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+      "id": 10
+    },
+    {
+      "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+      "id": 11
+    },
+    {
+      "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+      "id": 12
+    },
+    {
+      "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+      "id": 13
+    },
+    {
+      "message": "hello",
+      "id": 14
+    },
+    {
+      "message": "hello",
+      "id": 15
+    },
+    {
+      "message": "how are you",
+      "id": 16
+    },
+    {
+      "message": "how are you",
+      "id": 17
+    },
+    {
+      "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+      "id": 18
+    },
+    {
+      "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+      "id": 19
+    },
+    {
+      "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+      "id": 20
+    },
+    {
+      "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+      "id": 21
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
