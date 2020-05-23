@@ -1,0 +1,9 @@
+.response iframe {
+    width: 100%;
+    height: 600px;
+}
+
+.response {
+    margin: auto;
+    padding: 10px;
+}

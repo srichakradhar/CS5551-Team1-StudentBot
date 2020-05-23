@@ -1,0 +1,82 @@
+{
+    "messages": [{
+            "message": "Hiiii.. I am your Roo's Bot and here to help you..Common get started",
+            "id": 1
+        },
+        {
+            "message": "hello",
+            "id": 2
+        },
+        {
+            "message": "hello",
+            "id": 3
+        },
+        {
+            "message": "hii",
+            "id": 4
+        },
+        {
+            "message": "hii",
+            "id": 5
+        }
+    ],
+    "botresponse": [{
+            "user": "Hi",
+            "bot": {
+                "text": "Hello How can I help you?",
+                "url": ""
+            }
+        },
+        {
+            "user": "How are you",
+            "bot": {
+                "text": "I'm fine. ",
+                "url": ""
+            }
+        },
+        {
+            "user": "Enroll for the course",
+            "bot": {
+                "text": "Please check the site displayed in the background",
+                "url": "https://umkc.umsystem.edu/psp/csprdk/?cmd=login"
+            }
+        },
+        {
+            "user": "How can I pay the fee?",
+            "bot": {
+                "text": "Please check the url for more details.Click Yes if you want to navigate to the url?",
+                "url": "https://umkc.umsystem.edu/psp/csprdk/?cmd=login"
+            }
+        },
+        {
+            "user": "show my courses",
+            "bot": {
+                "text": "Please check the site displayed in the background",
+                "url": "https://umkc.instructure.com/"
+            }
+        },
+        {
+            "user": "general info",
+            "bot": {
+                "text": "Please check the site displayed in the background",
+                "url": "https://www.umkc.edu/"
+            }
+        },
+        {
+            "user": "Show me directions from Student union to Royal hall",
+            "bot": {
+                "directions": true,
+                "text": "Look map for directions shown",
+                "origin": "Student Union",
+                "destination": "Royal Hall"
+            }
+        },
+        {
+            "user": "Need to book an appointment",
+            "bot": {
+                "text": "Appointment ",
+                "url": "https://sce.umkc.edu/resources/advising-support/"
+            }
+        }
+    ]
+}

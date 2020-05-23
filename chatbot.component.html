@@ -1,0 +1,53 @@
+<div class="chatbot">
+    <div [@openClose]="isOpen ? 'open' : 'closed'" (mouseover)="stopInterval()" (mouseout)="startInterval()" id="chat-circle" class="btn btn-raised" (click)="toggleChatBox()" *ngIf="showChatIcon">
+        <div id="chat-overlay"></div>
+        <i class="material-icons">chat</i>
+    </div>
+
+    <div class="chat-box" *ngIf="showChatBox">
+        <div class="chat-box-header">
+            UMKC <span class="roo">Roo's</span> Bot
+
+            <span class="chat-box-toggle">
+              <span class="material-icons" (click)="speak()">
+                settings_voice
+                </span>
+            <i class="material-icons" (click)="toggleChatBox()">close</i></span>
+        </div>
+        <div class="chat-box-body">
+            <div class="chat-box-overlay"></div>
+            <div class="chat-logs" #displayMsg></div>
+            <div *ngIf="showTyping" class="roo-typing">Roo's Bot is typing...</div>
+            <!--chat-log -->
+        </div>
+        <div class="chat-input">
+            <form>
+                <input type="text" id="chat-input" autocomplete="off" #inputMsg placeholder="Send a message..." />
+                <button type="submit" class="chat-submit" id="chat-submit" (click)="sendMessage(inputMsg.value)">
+          <i class="material-icons">send</i>
+        </button>
+            </form>
+        </div>
+    </div>
+    <ng-template #confirm>
+        <div class="alert-box">
+            <div class="modal-header">
+                <h4 class="modal-title">Confirm</h4>
+                <button type="button" class="close" aria-label="Close" (click)="bsModalRef.hide()">
+          <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                Are you sure want to open the page?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="onConfirm()">
+          Yes
+        </button>
+                <button type="button" class="btn btn-secondary" (click)="onCancel()">
+          No
+        </button>
+            </div>
+        </div>
+    </ng-template>
+</div>

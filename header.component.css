@@ -1,0 +1,22 @@
+.navbar-brand {
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: #5A5EB9 !important;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: black !important;
+    margin: 15px;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover {
+    color: #5A5EB9 !important;
+}
+
+.nav-link.active {
+    color: #5A5EB9 !important;
+}
+

@@ -1,0 +1,6 @@
+<div #map class="map-container">
+    <agm-map>
+        <agm-direction *ngIf="origin && destination" [origin]="origin" [destination]="destination">
+        </agm-direction>
+    </agm-map>
+</div>

@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+}
+
+.fa {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #5A5EB9 !important;
+}
