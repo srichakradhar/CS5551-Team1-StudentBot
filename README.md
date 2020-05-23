@@ -1,4 +1,4 @@
-# ChatbotUi
+# UMKC Student Helper Chatbot
 
 This project was created as a part of the requirement to fulfil the CS5551 course of SCE department at UMKC.
 
